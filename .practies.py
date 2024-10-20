@@ -1,0 +1,687 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOKrt9F54la98LW/pZO2/SC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/M-Dinesh-14/practice_test/blob/main/.practies.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Conditions Statments.\n",
+        "\n",
+        " Python supports the usual logical conditions from mathematics and The condition Statment are used to control the flow of a program.\n",
+        " * there are :-\n",
+        "   * if\n",
+        "   * else\n",
+        "   * if else"
+      ],
+      "metadata": {
+        "id": "L3SRJYtOXG6p"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# if condition\n",
+        "\n",
+        " it is used to single condition statment.\n",
+        " * the statment will ended with (:)\n",
+        " * if the condition is true or satify the condition it will print the statment, if the contition will not satify than the statment will not print it will escp the statment in the program."
+      ],
+      "metadata": {
+        "id": "XIAEtu6oa0J1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " #if statment example.\n",
+        " a = 30\n",
+        "if a >=5 :\n",
+        "    print(\" positive\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JjdfsD5xa9vm",
+        "outputId": "8b7e1e6a-f6c4-4338-ddba-1f763972b43a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " positive\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = -30\n",
+        "if a >=5 :\n",
+        "    print(\" positive\")"
+      ],
+      "metadata": {
+        "id": "VvWrJCPoM9xD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# else condition statment.\n",
+        "\n",
+        "  The else statment is used when the code have two condition statment.\n",
+        "* the statment will ended with (:)\n",
+        "* if the condition is true or satify the condition it will print the statment, if the contition will not satify than the statment will print not satify statment.\n",
+        "   "
+      ],
+      "metadata": {
+        "id": "-z9ViBzybq2Q"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#example of else statment.\n",
+        "number = -6\n",
+        "\n",
+        "if number >= 0 :\n",
+        "     print(\"positive\")\n",
+        "else :\n",
+        "     print(\"negative\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W6NkunhGcEpY",
+        "outputId": "63e543e5-385c-4dba-a65c-099f82c2a7e2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "negative\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = 30\n",
+        "if number > 0:\n",
+        "    print(\"positive\")\n",
+        "else:\n",
+        "    print(\"negative\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "74hcXYNHNme5",
+        "outputId": "efeb48d3-4c73-4f8f-93a0-1fc66f67adc0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "positive\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# elif condition statment\n",
+        "  the statment is used when there more than two condition are there in the code .\n",
+        "* the statment will ended with (:)\n",
+        "* if the condition is true or satify the condition it will print the statment, if the contition will not satify than the statment will not print it will show the error in the code."
+      ],
+      "metadata": {
+        "id": "G-RW7CFjOIwE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = 30\n",
+        "if number > 0:\n",
+        "    print(\"positive\")\n",
+        "elif number == 0:\n",
+        "    print(\"zero\")\n",
+        "else:\n",
+        "    print(\"negative\")"
+      ],
+      "metadata": {
+        "id": "5tQtRAdZPeKj",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b9029a2b-fb97-40ee-91ac-d86834ded51b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "positive\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Input()\n",
+        "   The input() function allows user input.\n",
+        "   \n",
+        "   There two types of input() funtion.\n",
+        "* static input():- it a value a variable.\n",
+        "* dymanic input():- it is used to give the input to the user of the code.\n"
+      ],
+      "metadata": {
+        "id": "ZYAtE0Oqdr4L"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "vol = ['a','e','i','o','u']\n",
+        "user = input(\"enter the char\")\n",
+        "if user in vol:\n",
+        "  print(\"it is a vowel\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U9lA032naJ5Z",
+        "outputId": "c2b82c64-ebb7-4cce-a826-465afa54852e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the chara\n",
+            "it is a vowel\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=20\n",
+        "b=40\n",
+        "c=10\n",
+        "\n",
+        "if a==b:\n",
+        " print(\"a is equal to b\")\n",
+        "elif a!=c:\n",
+        " print(\"a is equal to c\")\n",
+        "else:\n",
+        "  print( \"a is not equal\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4vZHWekvkaz0",
+        "outputId": "6bf4306a-f44c-4f92-d955-6bad45be4a99"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a is equal to c\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1) write a python program to check given year is leap year or not.\n"
+      ],
+      "metadata": {
+        "id": "CvzEYtWDindF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "year = int(input(\"enter the year\"))\n",
+        "if year % 4 == 0:\n",
+        "  print(\"it is a leap year\")\n",
+        "else:\n",
+        "    print(\"it is not a leap year\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "19hD_oaei5wp",
+        "outputId": "05845fcb-b639-4446-b4cb-be0fd5fe0e61"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the year2004\n",
+            "it is a leap year\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "2"
+      ],
+      "metadata": {
+        "id": "xVlZ7Fdckwoo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2) write apython program to find a given even or odd?"
+      ],
+      "metadata": {
+        "id": "fQjsaXo0livn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = 3\n",
+        "if num % 2 == 0:\n",
+        "  print(\"it is a even number\")\n",
+        "else:\n",
+        "  print(\"it is a odd number\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cbrVy33Ml19W",
+        "outputId": "aac6de13-ab52-42e1-9fe7-5eb7d236d0d7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "it is a odd number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "write a python program to check list is empty or not?\n"
+      ],
+      "metadata": {
+        "id": "uMw06g0umV4O"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = []\n",
+        "if  not num:\n",
+        "  print(\" empty\")\n",
+        "else:\n",
+        "    print(\"it is not empty\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NDSSTzIDme4w",
+        "outputId": "dd6be9b4-9a9d-4b30-8d83-41b3e04c73aa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "it is not empty\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4) write a python code to calucate grade of a student\n"
+      ],
+      "metadata": {
+        "id": "pf7chnMUn5RL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks = int(input(\"enter the markers\"))\n",
+        "if marks >= 90:\n",
+        "   print(\"A\")\n",
+        "elif marks >= 80:\n",
+        "   print(\"B\")\n",
+        "elif marks >= 70:\n",
+        "   print(\"C\")\n",
+        "elif marks >= 60:\n",
+        "   print(\"D\")\n",
+        "elif marks >= 50:\n",
+        "   print(\"E\")\n",
+        "else:\n",
+        "   print(\"fail\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IzNw5-nPoEJB",
+        "outputId": "3c2ba64f-d043-439d-99af-d26006e1c604"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the markers 56\n",
+            "E\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5). check whether given word is a palindrome or not?\n",
+        "\n",
+        "6). write a python program to find the smallest among three number?\n",
+        "\n",
+        "7). find the second largest number in a list?\n",
+        "\n",
+        "8). calculate BMI and categorize it\n",
+        " * underweight\n",
+        " * bodyweight\n",
+        "\n",
+        "9). write a python program to check vote eligiblity\n",
+        "\n",
+        "10). write a python program to find person belongs to which type of group\n",
+        "* school group lessthen 22\n",
+        "* work group lessthen 22 and greater then 50\n",
+        "* retire group graterthen 50\n"
+      ],
+      "metadata": {
+        "id": "dmOLdhr5qPtj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 5) check whether given word is a palindrome or not?\n",
+        "\n",
+        "num = (input(\"enter the number:-\"))\n",
+        "if num == num[::-1]:\n",
+        "   print(\"it is a palindrome\")\n",
+        "else:\n",
+        "   print(\"it is not a palindrome\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2_WB2C8UrE9c",
+        "outputId": "c73f1633-f19e-40ed-e4d6-81e3087fca56"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number3`13\n",
+            "it is not a palindrome\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#6). write a python program to find the smallest among three number?\n",
+        "user = int(input(\"enter the number:-\"))\n",
+        "a = 50\n",
+        "b = 30\n",
+        "c = 20\n",
+        "if a < b and a < c:\n",
+        "  print(a)\n",
+        "elif b < a and b < c:\n",
+        "    print(b)\n",
+        "else:\n",
+        "      print(c)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A6AQL_E5zxaj",
+        "outputId": "433357a0-0615-4ce9-ea1b-e2b1a843aafd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number30\n",
+            "20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#7). find the second largest number in a list?\n",
+        "\n",
+        "num = (input(\"enter the number:-\"))\n",
+        "a =[10,3,45,20,34,60]\n",
+        "\n",
+        "a.sort() == a\n",
+        "if a[-2] == int(num):\n",
+        "   print( \"it is a second largest number\")\n",
+        "else:\n",
+        "   print(\"it is not a second largest number\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iPz9o8sf1SvZ",
+        "outputId": "a9e690b6-a1d9-44d2-d7f2-25dddf715401"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number45\n",
+            "it is a second largest number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#8). calculate BMI(body mass index) and categorize it\n",
+        "#*underweight\n",
+        "#*bodyweight"
+      ],
+      "metadata": {
+        "id": "gwO33Jt093gA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "user = (input(\"enter the weight:-\"))\n",
+        "a=float(user)\n",
+        "if  a <= 18.5:\n",
+        " print(\"it is a underweight\")\n",
+        "elif a <= 29.5:\n",
+        " print(\"it is a bodyweight\")\n",
+        "elif a >= 29.5:\n",
+        " print(\"it is a overweight\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3Oe0B-lcAJ99",
+        "outputId": "734a7857-78e6-4f5a-ee37-0023187ef0b1"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the weight25\n",
+            "it is a bodyweight\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#9). write a python program to check vote eligiblity\n",
+        "\n",
+        "user = input(\"enter the age:-\")\n",
+        "if int(user) <= 18:\n",
+        "  print(\" The person is not eligible to vote \")\n",
+        "else:\n",
+        "  print(\"the person is eligible to vote\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GnhHc1FDIcv0",
+        "outputId": "93a76aed-edfc-4749-c804-cdfeb6951ae5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the age30\n",
+            "the person is eligible to vote\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#10). write a python program to find person belongs to which type of group\n",
+        "\n",
+        "#school group lessthen 22\n",
+        "#work group lessthen 22 and greater then 50\n",
+        "#retire group graterthen 50\n",
+        "\n",
+        "a = input(\"enter the number:-\")\n",
+        "if a < '22':\n",
+        "  print(\"school group\")\n",
+        "elif a > '22' and a< '50':\n",
+        "  print(\"work group\")\n",
+        "else :\n",
+        " print(\"retire group\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kLDLOsMzJgYx",
+        "outputId": "028f9abc-b97b-4545-c587-5cee12c20799"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number:-30\n",
+            "work group\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
